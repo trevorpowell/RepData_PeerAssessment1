@@ -31,6 +31,14 @@ library(dplyr)
 
 ```r
 library(ggplot2)
+```
+
+```
+## Want to understand how all the pieces fit together? Buy the
+## ggplot2 book: http://ggplot2.org/book/
+```
+
+```r
 unzip("activity.zip")
 data <- read.csv("activity.csv")
 data.na.omit <- na.omit(data)
